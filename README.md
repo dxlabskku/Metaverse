@@ -1,6 +1,6 @@
-# Bridging Academic Perspectives and Real-World Services of the Metaverse: Defining Concepts and Analyzing User Experience.
+# Reconceptualizing the Metaverse: A Taxonomy for User Experience Analysis and Insights from Real-World Platforms.
 
-This repository is the official dataset and code for the paper 'Bridging Academic Perspectives and Real-World Services of the Metaverse: Defining Concepts and Analyzing User Experience.' The link for paper is given [here](https://sites.google.com/view/dxlab/).
+This repository is the official dataset and code for the paper 'Reconceptualizing the Metaverse: A Taxonomy for User Experience Analysis and Insights from Real-World Platforms' The link for paper is given [here](https://sites.google.com/view/dxlab/).
 
 ## Sample Result
 As a result of the execution, you would be able to get the word co-occurrence network and the metrics used for the keywords. The example word co-occurrence network are given as below.
@@ -31,7 +31,22 @@ networkx==3.1
 Our repository comprises of the following structure.
 
 ```shell
+.
 ├── README.md
+├── appendix
+│   ├── Appendix A. Paper List.xlsx
+│   ├── Appendix B. Validation_of_metaverse_taxonomy.xlsx
+│   ├── Appendix C. Roblox_betweenness.xlsx
+│   ├── Appendix D. Roblox_closeness.xlsx
+│   ├── Appendix E. Roblox_count.xlsx
+│   ├── Appendix F. Zepeto_betweenness.xlsx
+│   ├── Appendix G. Zepeto_closeness.xlsx
+│   ├── Appendix H. Zepeto_count.xlsx
+│   ├── Appendix I. Word list of Roblox.xlsx
+│   └── Appendix J. Word list of Zepeto.xlsx
+├── examples
+│   ├── roblox_wcn.png
+│   └── zepeto_wcn.png
 ├── graphs
 │   ├── roblox.graphml
 │   └── zepeto.graphml
@@ -46,11 +61,8 @@ Our repository comprises of the following structure.
 │   ├── roblox4.csv
 │   ├── roblox5.csv
 │   └── zepeto.csv
-├── src
-│   └── main.py
-└── utils
-    ├── en.bin
-    └── lid.176.bin
+└── src
+    └── main.py
 ```
 
 The description and role of directory are as follows.
